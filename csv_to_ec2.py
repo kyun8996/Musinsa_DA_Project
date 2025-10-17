@@ -7,7 +7,7 @@ df = pd.read_csv("Data/musinsa_pick.csv")
 # MySQL 연결 설정
 user = 'redash_user'
 password = 'tmdrbs6755'
-host = '3.39.21.171'
+host = '13.209.99.209'
 port = 3306
 database = 'musinsa_db'
 
