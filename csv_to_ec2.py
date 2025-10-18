@@ -5,11 +5,12 @@ from sqlalchemy import create_engine
 df = pd.read_csv("Data/musinsa_pick.csv")
 
 # MySQL 연결 설정
+# 깃허브 올릴때 중요정보 업로드 x
 user = 'redash_user'
-password = 'tmdrbs6755'
-host = '13.209.99.209'
+password = ''
+host = ''
 port = 3306
-database = 'musinsa_db'
+database = ''
 
 # SQLAlchemy 엔진 생성
 engine = create_engine(f"mysql+pymysql://{user}:{password}@{host}:{port}/{database}")
